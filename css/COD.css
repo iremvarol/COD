@@ -16,16 +16,16 @@ body p, body li {
 	line-height: 1.35em;
 	letter-spacing: .05em;
 }
-body #s4-bodyContainer { background: #e3cab0 url("../Images/bgWorkSpace.jpg") repeat-x center top; min-width: 998px; position:relative;}
+body #s4-bodyContainer { background: #e3cab0 url("../images/bgWorkSpace.jpg") repeat-x center top; min-width: 998px; position:relative;}
 #header { margin: auto; width: 998px; height: 157px; position: relative; }
-#contentDivWrapper { background: url("../Images/bgContentDiv.png") repeat-y center top; }
+#contentDivWrapper { background: url("../images/bgContentDiv.png") repeat-y center top; }
 .contentDiv { margin: 0 auto; width: 998px; min-height: 600px; overflow:auto; padding: 0 0 2em; position: relative; background-color: #fff; }
 #logo { position: absolute; top: 40px; left: 1px; }
 a img { border: 0; }
 
 #topTabs { margin: 0; padding: 0; list-style-type: none; position: absolute; top: 7px; right: 0; }
 #topTabs li { display: inline; }
-#topTabs li a { display: block; float: left; background: url("../Images/spriteCOD.png") no-repeat; height: 38px; text-indent: -9999px; }
+#topTabs li a { display: block; float: left; background: url("../images/spriteCOD.png") no-repeat; height: 38px; text-indent: -9999px; }
 #topTabs li a.sprite1 { width: 112px; }
 #topTabs li a.sprite2 { background-position: 0 -38px; width: 131px; }
 #topTabs li a.sprite3 { background-position: 0 -76px; width: 134px; }
@@ -99,7 +99,7 @@ a[class*="zz2_CurrentNav"] { color: #000; font-size: 1.3125em; font-weight: norm
 .quickLaunch a.selected .additional-background { background: url("../images/bgDefaultSelected.png") no-repeat 27px 12px; }
 .quickLaunch a[title*="Header"].selected .additional-background {
 	padding: 5px 5px 5px 20px;
-	background: url("../Images/leftNav/bgDefaultSelected.png") no-repeat 0px 7px; 
+	background: url("../images/leftNav/bgDefaultSelected.png") no-repeat 0px 7px; 
 	}
 
 .ms-WPTitle, .ms-WPTitle a {
@@ -287,19 +287,19 @@ ul { color: #000;}
 		font-size: 1.5em !important;
 	} 
 /*
-#footer { min-height: 97px; background: #ffc423 url("../Images/bgFooter.png") no-repeat center top; }
+#footer { min-height: 97px; background: #ffc423 url("../images/bgFooter.png") no-repeat center top; }
 #footer, #footer a:link, #footer a:visited { color: #513600; font: 1.0750em Verdana; }
 #footer a:hover {color: #a30e22; text-decoration: underline;}
 #footer ul { margin: auto; padding: 20px 0 0 0; list-style-type: none; width: 650px; height: 20px;}
 #footer ul li { display: inline; }
-#footer ul a { display: block; float: left; padding: 1px 0 0 25px; height: 20px; margin-right: 38px; background: url("../Images/spriteCOD.png") no-repeat; }
+#footer ul a { display: block; float: left; padding: 1px 0 0 25px; height: 20px; margin-right: 38px; background: url("../images/spriteCOD.png") no-repeat; }
 #footer ul a.sprite1 { background-position: 0 -124px; }
 #footer ul a.sprite2 { background-position: 0 -154px; padding-left: 30px; }
 #footer ul a.sprite3 { background-position: 0 -185px; }
 #footer ul a.sprite4 { background-position: 0 -217px; }
 #footer ul a.sprite5 { background-position: 0 -250px; margin-right: 0;}
 #footer p { clear: both; text-align: center; }
-#footer p span { padding: 0 10px 0 4px; background: url("../Images/spriteCOD.png") no-repeat right -270px; }
+#footer p span { padding: 0 10px 0 4px; background: url("../images/spriteCOD.png") no-repeat right -270px; }
 #footer p span:last-child { background-image: none; }
 */
 .cbqwp { margin: 0; padding: 0; list-style-type: none; }
@@ -308,7 +308,7 @@ ul { color: #000;}
 .cbqwp .newsItem-NoPic a { display: block; margin-top: 20px; background: none; }
 .cbqwp .newsItem-NoPic a:hover, .cbqwp .newsItem-NoPic a:focus { background-color: #faeed4; }
 .cbqwp .newsItem-NoPic a:hover h2::after, .cbqwp .newsItem-NoPic a:focus h2::after { content: " - Selected"; font-size: 0.75em; }
-/*.cbqwp a { display: block; background: url("../Images/bgHorizontal.png") no-repeat bottom; margin-top: 20px; } */
+/*.cbqwp a { display: block; background: url("../images/bgHorizontal.png") no-repeat bottom; margin-top: 20px; } */
 .cbqwp a { display: block; margin-top: 20px; }
 /* .cbqwp li:last-child a { background-image: none; } */
 .cbqwp li:first-child a { margin-top: 0; }
