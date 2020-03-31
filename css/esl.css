@@ -1,0 +1,63 @@
+	/* fix scrolling on list pages */
+    #s4-bodyContainer {
+        position: relative;
+    }
+
+    /* hide body scrolling (SharePoint will handle) */
+    body {
+        height:100%;
+        overflow:hidden;
+        width:100%;
+    }
+            
+    /* popout breadcrumb menu needs background color for firefox */
+    .s4-breadcrumb-menu {
+        background:#F2F2F2;
+    }
+
+    /* if you want to change the left nav width, change this and the margin-left in .s4-ca */
+    body #s4-leftpanel {
+        /* width:155px; */
+    }		
+    
+    /* body area normally has a white background */
+    .s4-ca {
+        background:transparent none repeat scroll 0 0;
+        /* margin-left:155px; */
+    }
+
+    div#s4-ribbonrow { display: none; }
+
+
+    .s4-skipribbonshortcut { display:none; }
+	.ctl00_PlaceHolderLeftActions_WebPartZoneBottomLeft_0 { border-color:Black;border-width:1px;border-style:Solid; }
+	.ctl00_PlaceHolderMain_WebPartZoneBottom_0 { border-color:Black;border-width:1px;border-style:Solid; }
+	.ctl00_wpz_0 { border-color:Black;border-width:1px;border-style:Solid; }
+
+    a.offscreen {
+        position:absolute;
+        left:-1000px;
+        top:-1000px;
+        width:1px;
+        height:1px;
+        text-align: left; 
+        overflow:hidden;
+        } 
+        a.offscreen:focus, a.offscreen:active, a.offscreen:hover { 
+        position:absolute; 
+        left:0; 
+        top:0; 
+        width:100%; 
+        height:auto; 
+        overflow:visible;
+        background-color:#FF3;
+        color: #a30e22;
+        border: 1px dotted #000;
+        font-size: 1.2em;
+        padding-left:10px;
+        
+        } 
+        .style1 {
+            margin-left: 80px;
+            display: none;
+        }

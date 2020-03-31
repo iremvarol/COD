@@ -1,0 +1,154 @@
+
+/* fix scrolling on list pages */
+#s4-bodyContainer {
+	position: relative;
+}
+
+/* hide body scrolling (SharePoint will handle) */
+body {
+	height: 100%;
+	width: 100%;
+}
+
+body #s4-workspace {
+	overflow-y: hidden !important;
+
+}
+/* popout breadcrumb menu needs background color for firefox */
+.s4-breadcrumb-menu {
+	background: #F2F2F2;
+}
+
+/* if you want to change the left nav width, change this and the margin-left in .s4-ca */
+body #s4-leftpanel {
+	/* width:155px; */
+}
+
+/* body area normally has a white background */
+.s4-ca {
+	background: transparent none repeat scroll 0 0;
+	/* margin-left:155px; */
+}
+
+div#s4-ribbonrow {
+	display: none;
+}
+
+.s4-skipribbonshortcut {
+	display: none;
+}
+
+.ctl00_PlaceHolderTopBar_WebPartZoneTop_0 {
+	border-color: Black;
+	border-width: 1px;
+	border-style: Solid;
+}
+
+.ctl00_PlaceHolderLeftActions_WebPartZoneBottomLeft_0 {
+	border-color: Black;
+	border-width: 1px;
+	border-style: Solid;
+}
+
+.ctl00_PlaceHolderMain_WebPartZoneBottom_0 {
+	border-color: Black;
+	border-width: 1px;
+	border-style: Solid;
+}
+
+.ctl00_wpz_0 {
+	border-color: Black;
+	border-width: 1px;
+	border-style: Solid;
+}
+
+a.offscreen {
+	position: absolute;
+	left: -1000px;
+	top: -1000px;
+	width: 1px;
+	height: 1px;
+	text-align: left;
+	overflow: hidden;
+}
+
+a.offscreen:focus,
+a.offscreen:active,
+a.offscreen:hover {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	overflow: visible;
+	background-color: #FF3;
+	color: #a30e22;
+	border: 1px dotted #000;
+	font-size: 1.2em;
+	padding-left: 10px;
+
+}
+
+.style1 {
+	margin-left: 80px;
+	display: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700');
+
+@font-face {
+	font-family: "CondBold";
+	src: url("http://www.collegeofthedesert.edu/Style%20Library/COD/Fonts/OpenSans-CondBold-webfont.woff") format('woff');
+	font-weight: bold;
+	font-style: oblique;
+}
+
+.comm-text-gold {
+	color: #ffc423 !important;
+	text-shadow: 1px 1px 0px #fff,
+		-2px 2px 3px #000;
+	font-size: 50pt;
+	line-height: 1em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.comm-text-white {
+	color: #fff !important;
+	text-shadow: -2px 2px 3px #000;
+	font-size: 1.75em;
+	line-height: 1em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+a:hover .comm-text-white,
+a:focus .comm-text-white {
+	color: #ffc423 !important;
+}
+
+a:hover .comm-text-gold,
+a:focus .comm-text-gold {
+	color: #fff !important;
+	text-shadow: -2px -2px 0px #000;
+}
+
+.comm-box {
+	margin: 0px auto 20px;
+	position: relative;
+	width: 685px;
+	height: 200px;
+	font-size: 1em;
+	background-color: #a30e22;
+	border-top: #ffc423 solid 10px;
+}
+
+.comm-text {
+	font-family: "CondBold", "Roboto Condensed";
+	font-style: normal;
+	font-weight: 700;
+}
+
+#boxLink {
+	text-decoration: none !important;
+}
